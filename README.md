@@ -203,11 +203,11 @@ ChatBI是一个基于LangChain的AI数据分析助手，集成了数据库查询
 ### 安装步骤
 1. 克隆仓库：
    ```sh
-   git clone https://github.com/yourusername/chatbi.git
-   cd chatbi
+   git clone https://gitee.com/yangsong-ryan/ChatBI.git
+   cd ChatBI
+   ```
 
-1. 安装依赖：
-
+2. 安装依赖：
    ```sh
    # 激活项目环境
    conda activate chatbi
@@ -216,7 +216,7 @@ ChatBI是一个基于LangChain的AI数据分析助手，集成了数据库查询
    pip install -r requirements.txt -i https://pypi.tuna.tsinghua.edu.cn/simple
    ```
 
-2. 配置环境变量： 复制`.env.example`文件为`.env`并填写您的配置：
+3. 配置环境变量： 复制`.env.example`文件为`.env`并填写您的配置：
 
 ## 🖥 使用说明
 
