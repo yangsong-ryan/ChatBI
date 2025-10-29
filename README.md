@@ -49,7 +49,7 @@ ChatBI是一个基于LangChain的AI数据分析助手，集成了数据库查询
 
 ![chatbi-1](http://www.crud-boy.com/images/logo/chatbi_1.png)
 
-![chatbi-1](http://www.crud-boy.com/images/logo/chatbi_2.png)
+![chatbi-2](http://www.crud-boy.com/images/logo/chatbi_2.png)
 
 ---
 
@@ -278,13 +278,17 @@ ChatBI是一个基于LangChain的AI数据分析助手，集成了数据库查询
 
 ```
 chatbi/
+├── .gitignore               # Git忽略规则文件
+├── LICENSE                  # 项目许可证文件
+├── README.md                # 项目说明文档
+├── DDL.sql                  # 测试数据库DDL（基于参考数据字典）
 ├── chatbi.py                # 主程序文件
-├── requirements.txt         # 依赖文件
-├── .env.example             # 环境变量示例
-├── images/                  # 生成的图表存储
-├── tmp/                     # 临时文件目录
-├── 参考知识库.txt           # 默认知识库文档
-└── 参考数据字典.txt         # 默认数据字典
+├── requirements.txt         # Python依赖文件
+├── .env.example             # 环境变量示例文件
+├── 参考数据字典.txt           # 默认数据字典
+├── 参考知识库.txt             # 默认知识库文档
+├── images/                  # 生成的图表存储目录
+└── tmp/                     # 临时文件目录
 ```
 
 ## 🤝 贡献指南
