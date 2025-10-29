@@ -203,10 +203,15 @@ ChatBI是一个基于LangChain的AI数据分析助手，集成了数据库查询
 ### 安装步骤
 1. 克隆仓库：
    ```sh
+   # gitee
    git clone https://gitee.com/yangsong-ryan/ChatBI.git
+   
+   # github 选择 gitee 或 github其中一个即可
+   git clone https://github.com/yangsong-ryan/ChatBI.git
+   
    cd ChatBI
    ```
-
+   
 2. 安装依赖：
    ```sh
    # 激活项目环境
