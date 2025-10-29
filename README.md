@@ -1,4 +1,4 @@
-<p align="center"><img src="http://www.crud-boy.com/images/logo/chatbi-logo.png" alt="SQLBot" width="300" /></p>
+<p align="center"><img src="docs_imgs/chatbi-logo.png" alt="SQLBot" width="300" /></p>
 <h3 align="center">基于大模型和 RAG 的智能问数系统</h3>
 
 <p align="center">
@@ -47,9 +47,9 @@ ChatBI是一个基于LangChain的AI数据分析助手，集成了数据库查询
 
 ## 🖼️ 项目展示
 
-![chatbi-1](http://www.crud-boy.com/images/logo/chatbi_1.png)
+![chatbi-1](docs_imgs/chatbi_1.png)
 
-![chatbi-2](http://www.crud-boy.com/images/logo/chatbi_2.png)
+![chatbi-2](docs_imgs/chatbi_2.png)
 
 ---
 
@@ -286,6 +286,7 @@ chatbi/
 ├── .gitignore               # Git忽略规则文件
 ├── LICENSE                  # 项目许可证文件
 ├── README.md                # 项目说明文档
+├── docs_imgs                # 项目说明文档依赖的图片文件夹
 ├── DDL.sql                  # 测试数据库DDL（基于参考数据字典）
 ├── chatbi.py                # 主程序文件
 ├── requirements.txt         # Python依赖文件
