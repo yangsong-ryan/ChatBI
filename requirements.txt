@@ -1,0 +1,11 @@
+langchain==0.3.26
+langchain-chroma==0.2.4
+langchain-community==0.3.26
+langchain-core==0.3.79
+langchain-openai==0.3.27
+langchain-text-splitters==0.3.11
+PyMySQL==1.1.1
+selenium==4.37.0
+snapshot-selenium==0.0.2
+pyecharts==2.0.9
+streamlit==1.46.1

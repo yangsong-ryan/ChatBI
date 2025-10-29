@@ -1,0 +1,32 @@
+# 环境变量文件（防止敏感信息泄露）
+.env
+.env.*
+#（如果有模板文件可以保留）
+!.env.example
+
+# Python 虚拟环境
+venv/
+.venv/
+
+# 临时文件/目录
+tmp/
+
+# 图片目录（如果不需要版本控制）
+images/
+
+# Python 开发相关
+__pycache__/
+*.py[cod]
+*.so
+*.egg-info/
+.pytest_cache/
+
+# IDE/编辑器特定文件
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# 系统文件
+.DS_Store
+Thumbs.db
